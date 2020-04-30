@@ -1,0 +1,64 @@
+.my-overlay-header{
+	width:100%;
+	height: 100%;
+	background: rgba(0,0,0,0.7);
+	position: absolute;
+	z-index: 9999;
+	
+}
+.my-header-overlay-text{
+	width:100%;
+	position: absolute;
+	color: #691bb8;
+	font-size: 15vw;
+	text-outline: 2px 2px white;
+	z-index:99999;
+	font-family: 'Ranchers', cursive;
+	top:20%;
+	
+}
+
+
+/**************************** index.jsp**************************/
+.index-head-text{
+	font-size: 5vw;
+	color: white;
+	font-family: 'Life Savers', cursive;
+}
+.box{ 
+	border-radius:10px;
+	background: #f3b200;
+}
+.box img{
+	
+	border-radius: 50%;
+}
+
+.pagination li{
+	
+}
+
+.select-alpha{
+	border-radius: 50%;
+	height:50px;
+	width:50px;
+	vertical-align: middle;
+	text-align: center;
+	font-size: 22px;
+	transition: all 0.5s ease-in-out;
+	border:1px solid yellow;
+	background: yellow !important;
+}
+
+.select-alpha:hover{
+	background: yellow;
+	transform: scale(1.2);
+	
+}
+
+
+/******************** admin*****************************/
+.login-border{
+	border: 2px solid #ff8000;
+	
+}

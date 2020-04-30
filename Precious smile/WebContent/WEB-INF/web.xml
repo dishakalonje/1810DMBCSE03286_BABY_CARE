@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>HOProjects</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+  
+
+  
+
+  
+  <servlet>
+      <servlet-name>Home</servlet-name>
+      <jsp-file>/index.jsp</jsp-file>
+      
+  </servlet>
+  <servlet-mapping>
+<servlet-name>Home</servlet-name>
+<url-pattern>/Home</url-pattern>
+</servlet-mapping>
+
+  <servlet>
+      <servlet-name>AboutUS</servlet-name>
+      <jsp-file>/aboutUs.jsp</jsp-file>
+      
+  </servlet>
+  <servlet-mapping>
+<servlet-name>AboutUS</servlet-name>
+<url-pattern>/AboutUS</url-pattern>
+</servlet-mapping>
+  
+  
+   <servlet>
+      <servlet-name>FeedBackPage</servlet-name>
+      <jsp-file>/feedBack.jsp</jsp-file>
+      
+  </servlet>
+  <servlet-mapping>
+<servlet-name>FeedBackPage</servlet-name>
+<url-pattern>/FeedBackPage</url-pattern>
+</servlet-mapping>
+  
+  <servlet>
+      <servlet-name>PaidProjects</servlet-name>
+      <jsp-file>/paidProject.jsp</jsp-file>
+      
+  </servlet>
+  <servlet-mapping>
+<servlet-name>PaidProjects</servlet-name>
+<url-pattern>/PaidProjects</url-pattern>
+</servlet-mapping>
+  
+  
+  
+  
+  <servlet>
+      <servlet-name>FreeProjects</servlet-name>
+      <jsp-file>/freeProjects.jsp</jsp-file>
+      
+  </servlet>
+  <servlet-mapping>
+<servlet-name>FreeProjects</servlet-name>
+<url-pattern>/FreeProjects</url-pattern>
+</servlet-mapping>
+  
+  
+   <servlet>
+      <servlet-name>Order</servlet-name>
+      <jsp-file>/orderProject.jsp</jsp-file>
+      
+  </servlet>
+  <servlet-mapping>
+<servlet-name>Order</servlet-name>
+<url-pattern>/Order</url-pattern>
+</servlet-mapping>
+  
+   <servlet>
+      <servlet-name>LoginPage</servlet-name>
+      <jsp-file>/Login.jsp</jsp-file>
+      
+  </servlet>
+  <servlet-mapping>
+<servlet-name>LoginPage</servlet-name>
+<url-pattern>/LoginPage</url-pattern>
+</servlet-mapping>
+
+  
+   <servlet>
+      <servlet-name>Dashboard</servlet-name>
+      <jsp-file>/MyAccount.jsp</jsp-file>
+      
+  </servlet>
+  <servlet-mapping>
+<servlet-name>Dashboard</servlet-name>
+<url-pattern>/Dashboard</url-pattern>
+</servlet-mapping>
+  
+  
+  <servlet>
+      <servlet-name>FreeJava</servlet-name>
+      <jsp-file>/freeJava.jsp</jsp-file>
+      
+  </servlet>
+  <servlet-mapping>
+<servlet-name>FreeJava</servlet-name>
+<url-pattern>/FreeJava</url-pattern>
+</servlet-mapping>
+  
+
+   <servlet>
+      <servlet-name>FreeAdvanceJava</servlet-name>
+      <jsp-file>/freeAdvanceJava.jsp</jsp-file>
+      
+  </servlet>
+  <servlet-mapping>
+<servlet-name>FreeAdvanceJava</servlet-name>
+<url-pattern>/FreeAdvanceJava</url-pattern>
+</servlet-mapping>
+ 
+  <servlet>
+      <servlet-name>FreePHP</servlet-name>
+      <jsp-file>/freePHP.jsp</jsp-file>
+      
+  </servlet>
+  <servlet-mapping>
+<servlet-name>FreePHP</servlet-name>
+<url-pattern>/FreePHP</url-pattern>
+</servlet-mapping>
+  
+  
+   <servlet>
+      <servlet-name>PaidJava</servlet-name>
+      <jsp-file>/PaidJava.jsp</jsp-file>
+      
+  </servlet>
+  <servlet-mapping>
+<servlet-name>PaidJava</servlet-name>
+<url-pattern>/PaidJava</url-pattern>
+</servlet-mapping>
+  
+  
+  <servlet>
+      <servlet-name>PaidAdvanceJava</servlet-name>
+      <jsp-file>/PaidAdvanceJava.jsp</jsp-file>
+      
+  </servlet>
+  <servlet-mapping>
+<servlet-name>PaidAdvanceJava</servlet-name>
+<url-pattern>/PaidAdvanceJava</url-pattern>
+</servlet-mapping>
+  
+  
+   <servlet>
+      <servlet-name>PaidPHP</servlet-name>
+      <jsp-file>/PaidPHP.jsp</jsp-file>
+      
+  </servlet>
+  <servlet-mapping>
+<servlet-name>PaidPHP</servlet-name>
+<url-pattern>/PaidPHP</url-pattern>
+</servlet-mapping>
+  
+   <servlet>
+    <servlet-name>Buy</servlet-name>
+    <jsp-file>/WEB-INF/BuyNow.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Buy</servlet-name>
+    <url-pattern>/Buy</url-pattern>
+  </servlet-mapping>
+  
+  
+</web-app>
